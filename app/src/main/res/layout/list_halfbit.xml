@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="horizontal">
+
+  <TextView
+    android:id="@+id/HalfBitText"
+    style="@style/CheckBoxStyle"/>
+
+  <CheckBox
+    android:id="@+id/BaseCbk"
+    style="@style/CheckBoxStyle"/>
+
+  <CheckBox
+    android:id="@+id/MuteCbk"
+    style="@style/CheckBoxStyle"/>
+
+  <CheckBox
+    android:id="@+id/OpenCbk"
+    style="@style/CheckBoxStyle"/>
+
+  <CheckBox
+    android:id="@+id/SlapCbk"
+    style="@style/CheckBoxStyle"/>
+
+  <CheckBox
+    android:id="@+id/TouchCbk"
+    style="@style/CheckBoxStyle"/>
+
+  <CheckBox
+    android:id="@+id/CowBellCbk"
+    style="@style/CheckBoxStyle"
+    android:buttonTint="@android:color/holo_blue_dark"/>
+
+  <TextView
+    android:id="@+id/HalfBitText2"
+    style="@style/CheckBoxStyle"/>
+
+</LinearLayout>
+
+<!--
+Old layout
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal">
+
+<TextView
+  android:id="@+id/HalfBitText"
+  style="@style/CheckBoxStyle"/>
+
+<CheckBox
+  android:id="@+id/BaseCbk"
+  style="@style/CheckBoxStyle"/>
+
+<CheckBox
+  android:id="@+id/MuteCbk"
+  style="@style/CheckBoxStyle"/>
+
+<CheckBox
+  android:id="@+id/OpenCbk"
+  style="@style/CheckBoxStyle"/>
+
+<CheckBox
+  android:id="@+id/SlapCbk"
+  style="@style/CheckBoxStyle"/>
+
+<CheckBox
+  android:id="@+id/TouchCbk"
+  style="@style/CheckBoxStyle"/>
+
+<TextView
+  android:id="@+id/HalfBitText2"
+  style="@style/CheckBoxStyle"/>
+
+</LinearLayout>-->
